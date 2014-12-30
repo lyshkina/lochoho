@@ -2,33 +2,45 @@
 article, aside, footer, header, nav, section {
 	display:block;
 }
+
 html, body, h1, h2, h3, h4, ul, li, a, p, article, aside, footer, header, nav, section {
 	padding:0;
 	margin:0;
 }
+
 body, html{
 	height:100%;
 }
+
 .main-nav{
 	margin-bottom:150px;
+	
 }
+
+a:hover,a:focus{
+	font-weight: bold;
+}
+
 /*homepage styles*/
 #homepage{
 	background: url("images/glowna.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
+
 nav ul{
 	text-align: center;
-	border-bottom:1px solid #cccccc;
+	border-bottom:1px solid #ffffff;
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
 nav li{
 	display: inline-block;	
 }
+
 nav li a{
 	font-family: 'Quicksand', sans-serif;
-	color:#cccccc;
+	color:#ffffff;
 	text-decoration: none;
 	font-size:30px;
 	padding:27px;
@@ -37,36 +49,202 @@ nav li a{
 
 .page-title{
 	font-family: 'Quicksand', sans-serif;
-	color:#cccccc;
-	font-size:135px;
+;	color:#cccccc;
+	font-size:90px;
 	text-align: center;
 	position: relative;
-	top:63%;
-	font-weight: bold;
-
+	top:65%;
+	font-weight: 100;
+	/*text-shadow: 2px 2px 2px black;*/
 }
+
+.page-subtitle{
+	font-family: 'Quicksand', sans-serif;
+	color:#cccccc;
+	text-align: center;
+	position: relative;
+	top:65%;
+	font-size:36px;
+}
+
 /*about-us styles*/
+
 #about-us{
 	background: url("images/onas.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
+
 p{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Merriweather Sans', sans-serif;
 	color:#cccccc;
-	font-size:25px;
-	font-weight: bold;
+	font-size:26px;
+	font-weight: 100;
 	text-shadow: 1px 1px 1px black;
 
 }
+
 .main-header{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Merriweather Sans', sans-serif;
 	color:#cccccc;
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom:50px;
+	font-weight:100;
 }
+
 article{
 	max-width: 1000px;
 	margin: 0 auto;
 }
 
+/*lochoho styles*/
+
+#lochoho{
+	background:url("images/lochoho.jpg") no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+#lochoho .main-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:60px;
+	font-weight:300;
+	color:#ffffff;
 	
+}
+
+#lochoho .header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin-bottom:150px;
+	margin-top:80px;
+}
+
+#lochoho .secondary-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin:80px auto 80px auto;
+	
+}
+
+/*Solecka styles*/
+
+#solecka{
+	background: url("images/solecka.jpg") no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+#solecka .main-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:60px;
+	font-weight:300;
+	color:#ffffff;
+}
+
+#solecka .header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin-bottom:150px;
+	margin-top:80px;
+}
+
+#solecka .second-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin:80px auto 80px auto;
+}
+
+#solecka .third-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin:80px auto 80px auto;
+}
+
+/*Lepacka styles*/
+
+#lepacka{
+	background:url("images/lepacka.jpg") no-repeat center center fixed;
+	background-size:cover;
+	text-align:center;
+}
+
+#lepacka .main-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:60px;
+	font-weight:300;
+	color:#ffffff;
+}
+
+#lepacka .header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin:80px auto 80px auto;
+}
+
+#lepacka .second-header{
+	font-family: 'Quicksand', sans-serif;
+	font-size:35px;
+	font-weight:900;
+	color:#ffffff;
+	margin:80px auto 80px auto;
+}
+
+/*Kontakt styles*/
+
+#kontakt{
+background:url("images/kontakt.jpg") no-repeat center center fixed;
+	background-size:cover;
+	text-align:center;
+}
+
+#kontakt h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size:60px;
+	font-weight:300;
+	color:#ffffff;
+}
+
+address{
+	font-family: 'Quicksand', sans-serif;
+	color:#ffffff;
+}
+
+address {
+	margin-top:100px;
+	text-decoration:none;	
+}
+
+address .email{
+	font-family: 'Quicksand', sans-serif;
+	font-size:40px;
+	text-decoration:none;
+	color:#ffffff;
+	margin-bottom:50px;
+}
+
+address .facebook{
+	font-family: 'Quicksand', sans-serif;
+	font-size:40px;
+	text-decoration:none;
+	color:#ffffff;
+	display:block;	
+}
+
+address .fb-iframe{
+	text-align: center;
+	width:145px;
+
+
+}
